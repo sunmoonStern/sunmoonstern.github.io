@@ -40,6 +40,11 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--sans);font
 header{margin-bottom:40px}
 .handle{font-family:var(--serif);font-weight:700;font-size:clamp(30px,7vw,42px);line-height:1.3;margin:0;letter-spacing:.02em}
 .lead{margin:12px 0 0;color:var(--soft);max-width:34em;text-wrap:pretty}
+.social{list-style:none;margin:16px 0 0;padding:0;display:flex;flex-wrap:wrap;gap:8px 12px}
+.social a{display:inline-flex;align-items:center;gap:8px;padding:4px 14px;border:1px solid var(--line);border-radius:999px;background:var(--card);color:var(--ink);font-size:15px;font-weight:500;text-decoration:none}
+.social a:hover{border-color:var(--link);color:var(--link)}
+.social a:focus-visible{outline:3px solid var(--link);outline-offset:2px}
+.social svg{width:16px;height:16px;flex:none}
 h2.sec{font-size:14px;font-weight:700;letter-spacing:.12em;color:var(--soft);margin:0 0 14px}
 
 .works{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:18px}
@@ -71,6 +76,10 @@ footer p{margin:0}
   <header>
     <h1 class="handle">sunmoonStern</h1>
     <p class="lead">業務外でつくっているもののまとめ。子どもの学び、医療データの情報公開、身近な政治など、ささやかな社会貢献のつもり。</p>
+    <ul class="social">
+      <li><a href="https://github.com/sunmoonStern" rel="me noopener"><svg viewBox="0 0 16 16" aria-hidden="true"><path fill="currentColor" d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.013 8.013 0 0016 8c0-4.42-3.58-8-8-8z"/></svg>GitHub</a></li>
+      <li><a href="https://x.com/angry_engineer0" rel="me noopener"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>行動するエンジニア@杉並区（@angry_engineer0）</a></li>
+    </ul>
   </header>
 
   <main>
